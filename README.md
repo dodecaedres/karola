@@ -1,62 +1,59 @@
 ![image](https://github.com/user-attachments/assets/e35ed84d-7dae-41d5-9e30-9e277ab57c0f)
 
 
-# Karola
+Karola is a 3D interactive avatar project built with modern web technologies, aiming to provide immersive user experiences. It combines 3D rendering, animations, and audio interactions to create a lifelike virtual assistant.
+🌟 Features
 
-Karola is a 3D interactive avatar project built with modern web technologies, aiming to provide immersive user experiences. The project combines 3D rendering, animations, and audio interactions to create a lifelike virtual assistant.
+    🎨 3D Avatar: Fully animated and interactive 3D model.
+    🎥 Camera Controls: Smooth camera transitions powered by Theatre.js.
+    🔊 Audio Synchronization: Text-to-speech and positional audio for realistic interactions.
+    🌍 Immersive Environment: A detailed and dynamic 3D world.
+    🛠️ Customizable: Easily extend and modify the avatar's behavior and appearance.
 
-## Features
+🛠️ Technologies Used
 
-- 🎨 **3D Avatar**: Fully animated and interactive 3D model.
-- 🎥 **Camera Controls**: Smooth camera transitions powered by Theatre.js.
-- 🔊 **Audio Synchronization**: Text-to-speech and positional audio for realistic interactions.
-- 🌍 **Immersive Environment**: A detailed and dynamic 3D world.
-- 🛠️ **Customizable**: Easily extend and modify the avatar's behavior and appearance.
+    React Three Fiber: For rendering 3D models in the browser.
+    Theatre.js: For camera animations and smooth transitions.
+    Three.js: Core library for 3D graphics.
+    React: Frontend framework for building user interfaces.
+    Text-to-Speech (TTS): For audio output in multiple languages.
+    Node.js: Backend server for managing user interactions and AI integration.
 
-## Technologies Used
+🚀 Installation
 
-- **React Three Fiber**: For rendering 3D models in the browser.
-- **Theatre.js**: For camera animations and smooth transitions.
-- **Three.js**: Core library for 3D graphics.
-- **React**: Frontend framework for building user interfaces.
-- **Text-to-Speech (TTS)**: For audio output in multiple languages.
-- **Node.js**: Backend server for managing user interactions and AI integration.
+Follow these steps to set up and run Karola locally:
+Prerequisites
 
-## Installation
+    Node.js (v16+)
+    Yarn (preferred package manager)
+    Git
 
-To get started with Karola, clone the repository and follow the steps below:
+Steps
 
-### Prerequisites
-- **Node.js** (v16+)
-- **Yarn** (preferred package manager)
-- **Git**
+    Clone the repository:
 
-### Steps
+git clone https://github.com/dodecaedres/karola.git
+cd karola
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/dodecaedres/karola.git
-   cd karola
-
-    Install dependencies:
+Install dependencies:
 
 yarn install
 
 Start the development server:
 
-yarn start
+yarn dev
 
 Open your browser and navigate to:
 
     http://localhost:3000
 
-Usage
+💡 Usage
 
     Customize Karola: Modify the 3D model, animations, or environment to fit your needs.
     Interactive Features: Click on Karola to trigger specific actions or play pre-recorded messages.
     Language Learning: Integrate with language APIs to create interactive lessons.
 
-Project Structure
+📂 Project Structure
 
 karola/
 ├── public/           # Static assets
@@ -70,7 +67,8 @@ karola/
 ├── package.json      # Dependencies and scripts
 └── README.md         # Project documentation
 
-Contributing
+
+🤝 Contributing
 
 Contributions are welcome! To contribute:
 
@@ -89,18 +87,20 @@ Push to your branch:
 
     Open a pull request on GitHub.
 
-License
+📜 License
 
 This project is licensed under the MIT License.
-Contact
+📬 Contact
 
 If you have any questions, suggestions, or issues, feel free to contact me:
 
     GitHub: dodecaedres
     Email: sebastien@tehcurt.com
 
-Start the development server with
-```
+🛠️ Quick Commands
+
+Start the development server with:
+
 yarn
 yarn dev
-```
+

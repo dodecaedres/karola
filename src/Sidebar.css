@@ -1,0 +1,70 @@
+/* Sidebar.css */
+
+.sidebar {
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    transition: transform 1s;
+    z-index: 1;
+  }
+  
+  .sidebar.left {
+    left: 0;
+  }
+  
+  .sidebar.right {
+    right: 0;
+  }
+  
+  .sidebar.collapsed.left {
+    transform: translateX(-295px);
+  }
+  
+  .sidebar.collapsed.right {
+    transform: translateX(295px);
+  }
+  
+  .sidebar-content {
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    color: gray;
+  }
+  
+  .sidebar-toggle {
+    position: absolute;
+    width: 1.3em;
+    height: 1.3em;
+    overflow: visible;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .sidebar-toggle.left {
+    right: -1.5em;
+  }
+  
+  .sidebar-toggle.right {
+    left: -1.5em;
+  }
+  
+  .sidebar-toggle:hover {
+    color: #0aa1cf;
+    cursor: pointer;
+  }
+  
+  .rounded-rect {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 50px -25px black;
+  }
+  
+  .flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

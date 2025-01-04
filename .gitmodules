@@ -1,0 +1,3 @@
+[submodule "/var/www/html/guillaume/gallery/touch"]
+	path = /var/www/html/guillaume/gallery/touch
+	url = https://github.com/mese79/TouchControls.git

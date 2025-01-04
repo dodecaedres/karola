@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    background-color: #ffffff;
+    background-image: linear-gradient(19deg, #ffffff 0%, #ddd6f3 100%);
+  }
+
+/* Flexbox pour alignement central des éléments */
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Espacement entre les éléments dans une flexbox */
+.space-x-4 {
+    gap: 8px; /* Ajustez cet espace selon vos besoins */
+}
+
+/* Autorise les événements de pointeur */
+.pointer-events-auto {
+    pointer-events: auto;
+}
+
+/* Style de fond blanc pour certains boutons ou éléments */
+.bg-white {
+    background-color: white;
+}
+
+/* Couleur de texte bleue */
+.text-blue-600 {
+    color: #2563EB;
+}
+
+/* Arrondit complètement les éléments */
+.rounded-full {
+    border-radius: 50%;
+}
+
+/* Padding ajusté pour rapprocher les boutons */
+.p-4 {
+    padding: 8px;
+}
+
+/* Ombre pour les éléments */
+.shadow-md {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Transition douce pour tous les changements */
+.transition-all {
+    transition: all 0.3s ease-in-out;
+}
+
+/* Durée de transition ajustée */
+.duration-200 {
+    transition-duration: 200ms;
+}
+
+/* Fonction de temporisation pour la transition */
+.ease-in-out {
+    transition-timing-function: ease-in-out;
+}
+
+/* Effet hover pour le fond gris clair */
+.hover\:bg-gray-100:hover {
+    background-color: #F3F4F6;
+}
+
+/* Couleur de fond gris clair */
+.bg-gray-200 {
+    background-color: #E5E7EB;
+}
+
+/* Curseur non autorisé pour les éléments désactivés */
+.cursor-not-allowed {
+    cursor: not-allowed;
+}
+
+/* Opacité réduite pour les éléments désactivés */
+.opacity-50 {
+    opacity: 0.5;
+}
+
+/* Cache les éléments */
+.hidden {
+    display: none;
+}
+
+/* Position fixe des éléments */
+.fixed {
+    position: fixed;
+}
+
+/* Conteneur pour les boutons, avec espace réduit */
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+/* Style des boutons avec arrondi complet et ombre */
+.button {
+    background-color: white;
+    color: #2563EB;
+    padding: 8px;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Couleur de fond des boutons au survol */
+.button:hover {
+    background-color: #F3F4F6;
+}
+
+/* Style des boutons désactivés */
+.button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+/* Couleur de fond active des boutons */
+.button-active {
+    background-color: #E5E7EB;
+}
+
+/* Positionnement et style de la vidéo en haut à droite */
+.video-top-right {
+    position: fixed;
+    top: 20px; /* Ajuste la distance du haut */
+    right: 16px; /* Distance du côté droit de la page */
+    width: 150px; /* Largeur de la vidéo */
+    height: 300px; /* Hauteur de la vidéo */
+    border: 1px solid rgba(0, 0, 0, 0);
+    display: none; /* Caché jusqu'à ce que la caméra soit activée */
+    z-index: -999; /* Assure que la vidéo est bien au-dessus des autres éléments */
+    border-radius: 8px; /* Arrondit légèrement les coins de la vidéo */
+    background-color: #00000000; /* Fond noir pour la vidéo */
+}

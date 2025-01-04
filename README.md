@@ -1,5 +1,5 @@
 ![image](https://github.com/user-attachments/assets/e35ed84d-7dae-41d5-9e30-9e277ab57c0f)
-Voici un exemple de fichier README.md pour votre dépôt GitHub karola. Ce fichier est conçu pour être clair, informatif, et facilement compréhensible par ceux qui consultent votre projet.
+
 
 # Karola
 
@@ -97,7 +97,7 @@ Contact
 If you have any questions, suggestions, or issues, feel free to contact me:
 
     GitHub: dodecaedres
-    Email: your-email@example.com
+    Email: sebastien@tehcurt.com
 
 Start the development server with
 ```
